@@ -3,6 +3,8 @@ $sock = stream_socket_server("tcp://127.0.0.1:8989",$errno,$errstr);
 $pids = [];
 
 //leader-follower模型
+//一个非常简单的leader-follower模型，创建一个进程池，随机选出一个进程作为leader进程，该进程监听是否有新连接，如果有则提升另一个follower为leader进程来继续监听，而原leader进程则去处理新连接的请求.
+
 for($i=0;$i<10;$i++)
 {
    $pid = pcntl_fork();
