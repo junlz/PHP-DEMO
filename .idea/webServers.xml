@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="26d6a0bc-159d-4832-b0ed-defc65f0fb77" name="47.94.89.195:2240" url="http://47.94.89.195:81">
+        <fileTransfer host="47.94.89.195" port="2240" rootFolder="/data/www/yaf-ext" accessType="SFTP" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
